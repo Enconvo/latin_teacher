@@ -16,12 +16,9 @@
     {
       "name": "latin_teacher",
       "title": "Latin Teacher",
-      "description": "Chat with your private latin teacher",
+      "description": "Your personal Latin tutor that helps with translations, grammar analysis, and verb conjugations. Perfect for both beginners and advanced learners seeking to master Latin.",
       "icon": "icon.png",
       "mode": "no-view",
-      "accepts": [
-        "text"
-      ],
       "targetCommand": "chat_with_ai|chat_command",
       "commandType": "bot",
       "preferences": [
@@ -47,7 +44,7 @@
     }
   ],
   "devDependencies": {
-    "@enconvo/api": "^0.1.147",
+    "@enconvo/api": "^0.1.161",
     "@types/node": "^18.19.33",
     "eslint": "^8.57.0",
     "prettier": "^2.8.8",
